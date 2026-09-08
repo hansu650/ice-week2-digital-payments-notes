@@ -4,7 +4,7 @@ Industry and Community Engagement · Learning log started on 8 September 2026
 
 **Status:** All three assigned courses completed on 8 September 2026, with official certificates checked. Verified chapter-quiz results total **30/30**: FinTech **20/20** and generative AI in finance **10/10**. The accepted 2025 edition of Digital Marketing Foundations provides no chapter quizzes.
 
-These notes record the learning, source checks, worked examples and development goals. The Digital Marketing and AI and Finance study photographs remain to be added to my local portfolio evidence.
+These notes record the learning, source checks, worked examples and development goals. My selected local portfolio evidence includes one real FinTech study photograph, the three course certificates and selected course screenshots.
 
 ## My learning focus
 
@@ -131,7 +131,7 @@ For my next development step, I will take one documented payment flow and explai
 
 ## Course 2 — Digital Marketing Foundations
 
-Source: Brad Batesole, [Digital Marketing Foundations on LinkedIn Learning](https://www.linkedin.com/learning/digital-marketing-foundations-26945172). This version was published on 26 September 2025 and is listed as 2 hours 9 minutes. **Completed on 8 September 2026; the official course certificate has been verified.** This edition has no chapter quizzes. My local evidence includes the two edition screenshots, separate course notes and the certificate; a study photograph is still to be added.
+Source: Brad Batesole, [Digital Marketing Foundations on LinkedIn Learning](https://www.linkedin.com/learning/digital-marketing-foundations-26945172). This version was published on 26 September 2025 and is listed as 2 hours 9 minutes. **Completed on 8 September 2026; the official course certificate has been verified.** This edition has no chapter quizzes. My local evidence includes the two edition screenshots, separate course notes and the certificate. One real FinTech classroom photograph is included in my W2 portfolio selection.
 
 ### Discussing the course version with my teacher
 
