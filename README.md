@@ -2,7 +2,9 @@
 
 Industry and Community Engagement · Learning log started on 8 September 2026
 
-**Status:** In progress. These notes record the material I have covered and the questions I am developing. Course completion and certificates are recorded only after confirmation on the learning platform.
+**Status:** All three assigned courses completed on 8 September 2026, with official certificates checked. Verified chapter-quiz results total **30/30**: FinTech **20/20** and generative AI in finance **10/10**. The accepted 2025 edition of Digital Marketing Foundations provides no chapter quizzes.
+
+These notes record the learning, source checks, worked examples and development goals. The Digital Marketing and AI and Finance study photographs remain to be added to my local portfolio evidence.
 
 ## My learning focus
 
@@ -418,7 +420,7 @@ The exercise helps me separate an observation, a hypothesis and a proposed actio
 
 ## Course 3 — Leveraging Generative AI in Finance and Accounting
 
-Source: Glenn Hopper, [Leveraging Generative AI in Finance and Accounting](https://www.linkedin.com/learning/leveraging-generative-ai-in-finance-and-accounting). The course page lists 48 minutes and an update date of 1 July 2025. **Status: in progress.** Its four chapter quizzes contain 3, 3, 2 and 2 questions. The first three quizzes are completed and verified as **3/3, 3/3 and 2/2**; the final result will be recorded after completion.
+Source: Glenn Hopper, [Leveraging Generative AI in Finance and Accounting](https://www.linkedin.com/learning/leveraging-generative-ai-in-finance-and-accounting). The course page lists 48 minutes and an update date of 1 July 2025. **Completed on 8 September 2026; the official certificate has been checked.** All four chapter quizzes are completed and verified as **3/3, 3/3, 2/2 and 2/2 — 10/10 in total**.
 
 ### Generation, simulation and evidence
 
@@ -512,6 +514,16 @@ A chart needs a defined question. When interpreting a change in ROE, I would exa
 
 The connection to marketing data is practical: tidier tables still need event definitions, denominators and observation periods to support interpretation.
 
+### Forecasting: evaluate performance beyond the fitted data
+
+The final case compares a linear trend with SARIMA and discusses industry knowledge, product cycles and economic conditions. I treat it as a demonstration of candidate methods. A more complex or seasonal-looking curve does not establish better forecasting performance.
+
+The final quiz shortens the name to ARIMA; my method notes retain SARIMA, the seasonal model explicitly demonstrated in the video.
+
+I checked the evaluation guidance in *Forecasting: Principles and Practice*: accuracy should be assessed on new observations excluded from fitting; good fit to training data is insufficient. [Source: section 5.8](https://otexts.com/fpp3/accuracy.html).
+
+I wrote a plan for a later exercise: define the target, units, quarter convention and forecast horizon; reserve later periods for evaluation; compare candidates with a simple baseline using the same available information; then examine errors and limitations. Any business assumptions should have a stated basis and conditions for revision. This is a completed validation plan, not a trained or tested forecasting model.
+
 ## My next steps and evidence of progress
 
 | Action | Why it matters | Evidence I will produce |
@@ -520,8 +532,14 @@ The connection to marketing data is practical: tidier tables still need event de
 | Completed: Digital Marketing Foundations | Connect customer needs, communication, cost and measurement. | Course certificate, edition screenshots, notes, calculation and writing exercises, and a short report exercise. |
 | Completed: first provider-documentation check using Stripe Checkout | Examine a specific payment process alongside the earlier conceptual QR example. | A source-backed diagram and analysis of confirmation, delayed status and repeated fulfillment requests. |
 | Compare convenience, inclusion and risk in that scenario | Develop a balanced reflection supported by a concrete example. | A short analysis covering a benefit, a limitation and a response. |
-| Complete the final assigned course on generative AI in finance | Examine applications, output checking and limitations. | Separate course notes, actual quiz results and verified completion evidence. |
-| Update my personal development plan before finalising Theme 2 | Turn the learning into an explicit development goal. | A specific goal, an action and a way to check progress. |
+| Completed: generative AI in finance course | Examine applications, output checking and limitations. | Separate course notes, 10/10 chapter quizzes, official certificate, source and arithmetic checks. |
+| Completed: update my personal development goals | Turn the learning into specific actions and progress checks. | The two goals below connect service analysis with clearer communication. |
+
+### Updated PDP goals
+
+By **15 September 2026**, I will complete an annotated payment journey for confirmed success, a pending result and a missing browser confirmation. Each scenario will identify the customer's next step, supporting evidence and remaining uncertainty. The initial documentation check is completed; the full scenario analysis remains to be developed.
+
+By the same date, I will seek **one peer's feedback** on the clarity of my explanation and revise at least one part, retaining the feedback and both versions. I have not yet obtained this feedback. This develops my communication goal alongside source checking and practical service analysis.
 
 My learning photograph and course screenshot are retained with my local portfolio evidence. This repository provides a readable record of my notes and their development. It supports the portfolio alongside the required reflection and other evidence.
 
@@ -541,6 +559,7 @@ My learning photograph and course screenshot are retained with my local portfoli
 - Goodfellow et al., [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661), 2014.
 - AICPA & CIMA, [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2/) and [SOC 3](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-3), consulted on 8 September 2026.
 - Apple Inc. (2024), [Form 10-K for the fiscal year ended 28 September 2024](https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm), p. 23.
+- Hyndman and Athanasopoulos, [Forecasting: Principles and Practice, section 5.8](https://otexts.com/fpp3/accuracy.html), consulted on 8 September 2026.
 - [My Week 1 e-commerce repository](https://github.com/hansu650/ice-week1-ecommerce-poster).
 
 The applied examples and critical observations above are my analysis of the learning material and the cited sources.
