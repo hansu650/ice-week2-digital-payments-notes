@@ -129,7 +129,7 @@ For my next development step, I will take one documented payment flow and explai
 
 ## Course 2 — Digital Marketing Foundations
 
-Source: Brad Batesole, [Digital Marketing Foundations on LinkedIn Learning](https://www.linkedin.com/learning/digital-marketing-foundations-26945172). The version I am studying was published on 26 September 2025 and is listed as 2 hours 9 minutes. **Status: in progress.**
+Source: Brad Batesole, [Digital Marketing Foundations on LinkedIn Learning](https://www.linkedin.com/learning/digital-marketing-foundations-26945172). This version was published on 26 September 2025 and is listed as 2 hours 9 minutes. **Completed on 8 September 2026; the official course certificate has been verified.** This edition has no chapter quizzes. My local evidence includes the two edition screenshots, separate course notes and the certificate; a study photograph is still to be added.
 
 ### Discussing the course version with my teacher
 
@@ -352,20 +352,117 @@ The audience-building lesson emphasises useful, consistent content and adapting 
 
 The flow diagrams in these notes explain processes; the calculation tables clarify measures; the prose develops my reasoning. Their different purposes help me choose a format for the reader's question. When evaluating engagement, I would examine what the feedback says and whether it reveals misunderstanding or helps improve an explanation.
 
-## Course still to be developed
+### Creator partnerships need evidence of fit
 
-| Course assigned through the Week 2 learning materials | My planned focus | Status |
+The micro-influencer lesson emphasises niche relevance and relationships. I would examine audience fit, substantive interaction, accurate product explanation, partnership cost and the planned evaluation.
+
+A smaller follower count does not itself establish greater trust or better results. For payment-related content, I would check clear conditions, transparency about the relationship and customer understanding. Reach and clicks need this context before I interpret their value.
+
+### A social-content case also informs my portfolio structure
+
+The Nike case introduces Hero–Hub–Help: major attention-building content, continuing series and material that answers practical questions. I focus on their different communication purposes.
+
+This helps me assess my professional portfolio. An overview should establish the learning topic, continuing notes should show how my understanding develops, and diagrams or examples should explain specific problems. I would organise these materials so a reader can follow the relationship between completion evidence, learning activity and analysis.
+
+### Email relevance starts with the communication's purpose
+
+The email lesson discusses subscriber preferences and relevant interactions as inputs to more useful content. I would first establish what subscribers expect to receive, then consider which information supports that purpose. A past purchase does not fully describe a person's interests.
+
+In a payment journey, I would distinguish the purpose of an order or payment notification from promotional email. Essential transaction information should be recognisable and understandable, with a clear basis for any adaptation and a way to examine its result.
+
+### An email sequence needs conditions for changing or stopping
+
+The email-planning lesson connects objectives, segments, automated sequences, content, timing and tests. I added four questions to my hypothetical plan: what triggers the content, what each step should help achieve, when it should arrive and what changes or stops the sequence.
+
+For checkout, I would review the plan when a purchase completes, a problem is resolved or subscription preferences change. This connects the sequence with the customer's current situation. It is planning analysis; I have not built an automation or sent emails.
+
+### Check email metric denominators and observation limits
+
+The measurement lesson introduces opens, clicks, conversions, bounces, unsubscribes and list growth. I checked Mailchimp's definitions to distinguish two measures:
+
+| Mailchimp measure | Denominator |
+| --- | --- |
+| Click rate | Successfully delivered emails |
+| Clicks per unique opens | Recipients registered as having opened the email |
+
+Both concern clicks, but answer different questions. I would specify the event, denominator and deduplication before interpreting a percentage. [Source: Mailchimp, About Email Reports](https://mailchimp.com/help/about-email-campaign-reports/).
+
+Apple explains that Protect Mail Activity downloads remote content in the background by default, regardless of engagement. My inference is that a load record does not establish actual reading. [Source: Apple, Mail Privacy Protection](https://www.apple.com/legal/privacy/data/en/mail-privacy-protection/).
+
+I would examine how reported events arise, then interpret them alongside the intended conversion, delivery problems, unsubscribes and feedback. A sudden change warrants checking definitions and data quality before attributing it to customer behaviour.
+
+### Evaluate email tools against the planned task
+
+The tools lesson gives me functional requirements to examine: list management, segmentation, editing, automation, reporting, integrations, delivery and cost. I would evaluate how these support the plan and maintain consistent data across systems.
+
+For my example, I would check whether order updates affect later messages, whether report definitions are clear and how costs change with subscriber or sending volume. The named products are starting points for investigation; a real selection requires current feature and pricing checks.
+
+### Choose key signals, then investigate anomalies
+
+The analytics lesson starts with business objectives, a small set of meaningful signals and anomaly detection to identify what needs investigation. A longer report does not itself establish better analysis.
+
+I treat an anomaly as a lead to investigate. For a hypothetical fall in checkout conversion, I would first check event definitions, recording completeness, comparison periods and traffic sources before proposing an explanation about the page or customer behaviour. A rise in email opens also needs the observation checks discussed above. Any proposed cause should come with evidence that could test it.
+
+### A short report exercise separates observation, interpretation and action
+
+The reporting lesson connects audience, purpose, KPIs, context and recommendations. I used the earlier **hypothetical checkout data** to write a compact report:
+
+| Report element | My exercise |
+| --- | --- |
+| Observation | 80 sessions started checkout and 40 purchased: 50% completion among starters. |
+| Supported interpretation | This identifies a stage to investigate. Without a comparison baseline, it does not establish a page defect. |
+| Checks needed | Event definitions, recording completeness, observation period, traffic sources and customer understanding of payment information. |
+| Proposed action | Compare checkout explanations with documentation and complete the three payment-result scenarios, then decide what interface or user validation is needed. |
+
+The exercise helps me separate an observation, a hypothesis and a proposed action. A useful report should make both the direction and its evidence limitations understandable.
+
+## Course 3 — Leveraging Generative AI in Finance and Accounting
+
+Source: Glenn Hopper, [Leveraging Generative AI in Finance and Accounting](https://www.linkedin.com/learning/leveraging-generative-ai-in-finance-and-accounting). The course page lists 48 minutes and an update date of 1 July 2025. **Status: in progress.** Its four chapter quizzes contain 3, 3, 2 and 2 questions. The first quiz is completed and verified as **3/3**; the remaining results will be recorded after completion.
+
+### Generation, simulation and evidence
+
+The opening material discusses generating new outputs from learned patterns and using simulated scenarios in financial analysis. I distinguish a plausible generated result from a verified fact or a reliable forecast. Producing many scenarios does not establish that their assumptions or probabilities represent the situation being studied.
+
+This connects with my earlier work on payment states and marketing measures: I need to identify the input, state the task, check the output and explain its limitations. For a financial summary, I would trace numbers to their source and recompute calculations before using the explanation.
+
+### FP&A: turn a natural-language question into a defined calculation
+
+FP&A means financial planning and analysis. The lesson discusses natural-language interaction and domain-specific information. I would still specify the period, units, inputs and assumptions, then verify the output.
+
+I completed a **hypothetical calculation exercise** for a fictional business: revenue of £100,000 and specified operating costs of £70,000, with revenue increasing by 10% and those costs by 5%.
+
+| Item | Baseline | Changed scenario |
 | --- | --- | --- |
-| Leveraging Generative AI in Finance and Accounting | Examine useful applications, limitations and the need to check generated outputs. | Notes to follow after study. |
+| Revenue | £100,000 | £110,000 |
+| Specified operating costs | £70,000 | £73,500 |
+| Revenue less these costs | £30,000 | £36,500 |
+
+The difference increases by £6,500. Recomputing the two components shows why subtracting 5% from 10% would not give the growth rate of the resulting difference. This is a simplified arithmetic exercise; tax, financing, working capital and other items are outside its scope.
+
+### Identify the scope of a model example
+
+The models lesson explains a generator and discriminator trained against each other. I checked Goodfellow and colleagues' original paper and identify this as a **generative adversarial network (GAN)** example, rather than treating that structure as a definition of all generative AI. [Source: Generative Adversarial Networks](https://arxiv.org/abs/1406.2661).
+
+This adds a question to my learning practice: is an explanation defining the whole topic or illustrating one method? Stating the scope helps me decide where I can apply the explanation.
+
+### Easier access to analysis still requires judgement
+
+The data-science lesson discusses using natural language to request analysis and reduce the amount of code a user must write. I still need to define the business question, select relevant variables, make fair comparisons and interpret the result.
+
+For my hypothetical revenue exercise, this means specifying the baseline, changes, units and calculation boundary. A subsequent quarterly forecast would also need an appropriate observation period, attention to seasonality, candidate explanatory variables and a validation method. The tools named in the lesson describe its demonstration environment; current capabilities would need checking for actual use.
+
+This connects with digital-marketing analytics: producing a chart or forecast should lead to an explanation of what it measures, which assumptions it uses and what further evidence is needed.
 
 ## My next steps and evidence of progress
 
 | Action | Why it matters | Evidence I will produce |
 | --- | --- | --- |
 | Completed: FinTech course and chapter quizzes | Build a more complete account of the field and identify misunderstandings. | Learning notes, four completed quizzes and the official course certificate. |
+| Completed: Digital Marketing Foundations | Connect customer needs, communication, cost and measurement. | Course certificate, edition screenshots, notes, calculation and writing exercises, and a short report exercise. |
 | Completed: first provider-documentation check using Stripe Checkout | Examine a specific payment process alongside the earlier conceptual QR example. | A source-backed diagram and analysis of confirmation, delayed status and repeated fulfillment requests. |
 | Compare convenience, inclusion and risk in that scenario | Develop a balanced reflection supported by a concrete example. | A short analysis covering a benefit, a limitation and a response. |
-| Study the remaining assigned courses | Extend the analysis to marketing and AI in finance. | Separate course notes and verified completion evidence. |
+| Complete the final assigned course on generative AI in finance | Examine applications, output checking and limitations. | Separate course notes, actual quiz results and verified completion evidence. |
 | Update my personal development plan before finalising Theme 2 | Turn the learning into an explicit development goal. | A specific goal, an action and a way to check progress. |
 
 My learning photograph and course screenshot are retained with my local portfolio evidence. This repository provides a readable record of my notes and their development. It supports the portfolio alongside the required reflection and other evidence.
@@ -375,11 +472,15 @@ My learning photograph and course screenshot are retained with my local portfoli
 - Week 2 lecture supplied in the module learning materials, studied on 8 September 2026.
 - Corporate Finance Institute, [Introduction to Fintech](https://www.linkedin.com/learning/introduction-to-fintech), LinkedIn Learning.
 - Brad Batesole, [Digital Marketing Foundations, updated edition](https://www.linkedin.com/learning/digital-marketing-foundations-26945172), LinkedIn Learning, published 26 September 2025.
+- Glenn Hopper, [Leveraging Generative AI in Finance and Accounting](https://www.linkedin.com/learning/leveraging-generative-ai-in-finance-and-accounting), LinkedIn Learning, course page updated 1 July 2025.
 - EMVCo, [EMV QR Codes](https://www.emvco.com/emv-technologies/qr-codes/) and [EMV Payment Tokenisation](https://www.emvco.com/emv-technologies/payment-tokenisation/), consulted on 8 September 2026.
 - European Union, [General Data Protection Regulation, Article 6](https://eur-lex.europa.eu/eli/reg/2016/679/art_6/oj/eng).
 - Stripe, [Fulfill orders with Checkout](https://docs.stripe.com/checkout/fulfillment), consulted on 8 September 2026.
 - Google Ads, [About return on investment](https://support.google.com/google-ads/answer/1722066?hl=en), consulted on 8 September 2026.
 - Google Search Central, [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features), consulted on 8 September 2026.
+- Apple, [Mail Privacy Protection & Privacy](https://www.apple.com/legal/privacy/data/en/mail-privacy-protection/), consulted on 8 September 2026.
+- Mailchimp, [About Email Reports](https://mailchimp.com/help/about-email-campaign-reports/), consulted on 8 September 2026.
+- Goodfellow et al., [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661), 2014.
 - [My Week 1 e-commerce repository](https://github.com/hansu650/ice-week1-ecommerce-poster).
 
 The applied examples and critical observations above are my analysis of the learning material and the cited sources.
