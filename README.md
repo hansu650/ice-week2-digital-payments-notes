@@ -10,6 +10,8 @@ My Week 1 work considered e-commerce. In Week 2, I am examining how digital fina
 
 The Week 2 lecture also connected independent learning with a professional portfolio and personal development planning. I am using the online courses to build subject knowledge, then turning that knowledge into examples, critical observations and practical next steps. A completion certificate will establish completion; the notes and applied examples will show what I can explain and use.
 
+My Week 1 reflection linked my PDP to teamwork, checking original sources and explaining a practical service challenge. I carry those priorities into this week through purposeful communication with my teacher and analysis of the payment experience. The provider-documentation check below is one completed step; implementing a service or conducting user testing remains future work.
+
 ## Course 1 — Introduction to Fintech
 
 Source: Corporate Finance Institute, [Introduction to Fintech on LinkedIn Learning](https://www.linkedin.com/learning/introduction-to-fintech).
@@ -83,7 +85,7 @@ Peer-to-peer lending connects borrowers with lenders through a platform. Crowdfu
 
 The questions reinforced the connection between smartphones and mobile payments, the meaning of digital banking, and the role of technology in widening access to financial services. They also helped me distinguish broad personal finance functions from narrower activities such as investment advice.
 
-The first chapter quiz result was confirmed as **5/5**. The second quiz was completed and marked as viewed; I have not added an unverified numerical total. The third and fourth quiz results were confirmed as **4/4** and **3/3**.
+The four chapter quiz results were confirmed as **5/5, 8/8, 4/4 and 3/3**, giving **20/20** overall.
 
 ### Personal finance, insurance and AI
 
@@ -153,6 +155,101 @@ Omnichannel marketing focuses on continuity across customer touchpoints. The cou
 
 **My critical observation:** Generating content variants quickly is useful only when the information is accurate and appropriate. I would check product facts and misleading wording before evaluating engagement. A faster workflow still needs a clear review step.
 
+### Paid, owned and earned media
+
+I distinguish paid placement, channels and content a business manages, and attention generated through other people's sharing or commentary. One social platform can contain all three. I therefore classify the activity by how it is produced and distributed, rather than by the platform name alone.
+
+For my payment example, I would compare the promise made in an advertisement, the information provided at checkout, and customers' accounts of the experience. An unclear fee or payment result could weaken the confidence created earlier in the journey. This is a hypothesis to investigate in a defined scenario.
+
+### From the marketing funnel to the payment journey
+
+The course uses awareness, interest, desire and action to organise the marketing funnel, then adds loyalty and advocacy after purchase. I use these stages as a guide while recognising that customers may pause, compare alternatives or return later.
+
+The buyer-journey lesson explicitly connects hesitation with unclear prices, confusing websites and limited trust in online payments. This gives me a direct link between the marketing course and digital payment systems.
+
+**My applied exercise:** For a hypothetical mobile purchase, I would follow product discovery, comparison, the shopping cart, payment selection, confirmation and support. At each point I would record the customer's task, required information and possible barrier. At checkout, I would examine the total cost, supported methods, verification steps and the meaning of the final payment status.
+
+This exercise has not been tested on a live service. I have now taken a first verification step by reading a provider's fulfillment documentation, as recorded below.
+
+### Checking a documented payment process
+
+I checked Stripe's Checkout fulfillment guide. A payment can succeed even if the customer loses connectivity before reaching the return page. Its documented approach uses server notifications, checks payment status and prevents repeated order fulfillment; delayed payment methods need later success or failure handling. [Source: Stripe, Fulfill orders](https://docs.stripe.com/checkout/fulfillment).
+
+My conceptual diagram records the distinction:
+
+```mermaid
+flowchart LR
+    C[Checkout] --> R[Customer return page]
+    C --> W[Server notification]
+    W --> V[Check status and prior fulfillment]
+    V --> F[Fulfill eligible order once]
+```
+
+**My inference:** A clear confirmation page and dependable order processing must work together. I would check that a customer can understand a pending result and that repeated notifications cannot create duplicate fulfillment. This is documentation analysis; I have not implemented or tested a payment integration.
+
+### Personalisation and learning through feedback
+
+The course distinguishes recommendations, actions triggered by customer behaviour and dynamically adapted content. I would consider alternative explanations for a signal: visiting a pricing page could indicate comparison or confusion as well as an intention to buy. My proposed trigger should be evaluated against customer feedback and the risk of unwanted interruptions.
+
+Agile marketing uses repeated cycles of planning, action, feedback and adjustment. I connect this with my learning method: explain a concept through a concrete question, identify what I cannot yet support, and check or revise it. Asking my teacher about the course version and consulting a payment provider's documentation are two actions I have already taken in this study session.
+
+### Defining value in terms a customer can assess
+
+The value-proposition lesson asks me to connect a customer problem, a useful outcome and a reason to choose the proposed solution. For my hypothetical checkout scenario, supporting several payment methods is a feature; helping the intended customer find a usable method and understand the payment result is the intended experience.
+
+My draft aim is to provide a clear mobile checkout that explains the amount, available methods and next step. I have not demonstrated an advantage over another service. A meaningful comparison would need a specified alternative and common evaluation criteria.
+
+### Identifying an audience without assuming its needs
+
+Segmentation groups customers using relevant characteristics, interests or behaviour. For my checkout example, I would start with tasks and context: a first-time visitor, a returning user and a person with limited connectivity may need different support. These are hypotheses to validate, rather than established findings about real customers.
+
+AI clustering can suggest patterns, but I would examine the data and the reason for each grouping. More detailed segmentation is useful only when it helps answer a meaningful question and is supported by suitable evidence.
+
+### A provisional customer persona
+
+I drafted a persona for the applied exercise: a first-time mobile customer who wants to understand the full amount, choose a usable payment method and confirm the order outcome. The proposed support includes understandable verification steps, clear status messages and a visible help route.
+
+This persona organises my questions. It has no invented interview quotations or survey findings. The course's emphasis on evolving personas means I would revise it using observed behaviour and customer explanations, rather than treating the initial profile as a fixed description.
+
+### Setting a measurable development goal
+
+The SMART framework helps me specify an outcome, how I will assess it and when I will complete it. I would interpret views or likes in relation to a defined purpose; they do not independently demonstrate sales or a better customer experience.
+
+My proposed PDP action is to complete an annotated payment-journey analysis by **15 September 2026**, using official sources and comparing three situations: verified success, a payment still processing and a browser that has not displayed the result. I will identify the participants, required customer information, a convenience benefit and an access or reliability limitation. I have completed the initial documentation check; the full scenario comparison is a further step.
+
+### KPI exercise: the denominator changes the question
+
+The course connects KPIs with the purpose of a campaign and discusses weighted engagement and LTV:CAC. I would state the weighting, time horizon and cost or value definitions before interpreting either measure.
+
+For a calculation exercise, I used **hypothetical data**, not customer records or project results: 500 sessions, 80 sessions starting checkout and 40 purchasing sessions in the same observation period, with at most one counted purchase conversion per session.
+
+| Measure | Calculation | Result |
+| --- | --- | --- |
+| Session visit-to-purchase conversion | 40 / 500 | 8% |
+| Completion among sessions that started checkout | 40 / 80 | 50% |
+
+Both results are compatible. They answer different questions. Before claiming that conversion improved, I would specify the event, denominator, period and comparison. The exercise demonstrates my understanding of the measure; it does not demonstrate a real performance improvement.
+
+### Bringing the example into a compact plan
+
+| Element | My current draft for the hypothetical shop |
+| --- | --- |
+| Problem and audience | A first-time mobile customer may need clearer checkout information. |
+| Intended value | Understand the amount, available payment methods and next step. |
+| Proposed content | Explanations at checkout, confirmation and help touchpoints. |
+| Business connection | Support an intended purchase and provide understandable order information. |
+| Costs to consider | Content creation, maintenance and customer-support time; no cost estimate has been established. |
+| Measures | Defined visit-to-purchase and checkout-completion measures, alongside customer understanding. |
+| Review | Compare documentation and pages, then revise the plan using feedback. |
+
+The one-page-plan lesson helped me check whether the audience, message, proposed service and measures support the same purpose. I can update this draft as the evidence develops.
+
+### Asking useful data questions and understanding growth loops
+
+The messaging lesson starts with the information needed to address a customer's concern. For my example, I would investigate how a first-time customer understands fees and payment instructions, then relate the findings to the wording at that touchpoint.
+
+Growth loops connect an existing user's experience with the arrival of new users through mechanisms such as referrals or shareable features. I would evaluate useful participation and retention alongside sharing counts and incentive costs. In a payment setting, trust in the underlying service and control over what information is shared would shape my assessment.
+
 ## Course still to be developed
 
 | Course assigned through the Week 2 learning materials | My planned focus | Status |
@@ -164,7 +261,7 @@ Omnichannel marketing focuses on continuity across customer touchpoints. The cou
 | Action | Why it matters | Evidence I will produce |
 | --- | --- | --- |
 | Completed: FinTech course and chapter quizzes | Build a more complete account of the field and identify misunderstandings. | Learning notes, four completed quizzes and the official course certificate. |
-| Extend the QR payment diagram with one provider's documented flow | Move from a conceptual diagram to a specific, verifiable example. | Participant roles, payment status handling and source references. |
+| Completed: first provider-documentation check using Stripe Checkout | Examine a specific payment process alongside the earlier conceptual QR example. | A source-backed diagram and analysis of confirmation, delayed status and repeated fulfillment requests. |
 | Compare convenience, inclusion and risk in that scenario | Develop a balanced reflection supported by a concrete example. | A short analysis covering a benefit, a limitation and a response. |
 | Study the remaining assigned courses | Extend the analysis to marketing and AI in finance. | Separate course notes and verified completion evidence. |
 | Update my personal development plan before finalising Theme 2 | Turn the learning into an explicit development goal. | A specific goal, an action and a way to check progress. |
@@ -178,6 +275,7 @@ My learning photograph and course screenshot are retained with my local portfoli
 - Brad Batesole, [Digital Marketing Foundations, updated edition](https://www.linkedin.com/learning/digital-marketing-foundations-26945172), LinkedIn Learning, published 26 September 2025.
 - EMVCo, [EMV QR Codes](https://www.emvco.com/emv-technologies/qr-codes/) and [EMV Payment Tokenisation](https://www.emvco.com/emv-technologies/payment-tokenisation/), consulted on 8 September 2026.
 - European Union, [General Data Protection Regulation, Article 6](https://eur-lex.europa.eu/eli/reg/2016/679/art_6/oj/eng).
+- Stripe, [Fulfill orders with Checkout](https://docs.stripe.com/checkout/fulfillment), consulted on 8 September 2026.
 - [My Week 1 e-commerce repository](https://github.com/hansu650/ice-week1-ecommerce-poster).
 
 The applied examples and critical observations above are my analysis of the learning material and the cited sources.
