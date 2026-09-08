@@ -418,7 +418,7 @@ The exercise helps me separate an observation, a hypothesis and a proposed actio
 
 ## Course 3 — Leveraging Generative AI in Finance and Accounting
 
-Source: Glenn Hopper, [Leveraging Generative AI in Finance and Accounting](https://www.linkedin.com/learning/leveraging-generative-ai-in-finance-and-accounting). The course page lists 48 minutes and an update date of 1 July 2025. **Status: in progress.** Its four chapter quizzes contain 3, 3, 2 and 2 questions. The first quiz is completed and verified as **3/3**; the remaining results will be recorded after completion.
+Source: Glenn Hopper, [Leveraging Generative AI in Finance and Accounting](https://www.linkedin.com/learning/leveraging-generative-ai-in-finance-and-accounting). The course page lists 48 minutes and an update date of 1 July 2025. **Status: in progress.** Its four chapter quizzes contain 3, 3, 2 and 2 questions. The first three quizzes are completed and verified as **3/3, 3/3 and 2/2**; the final result will be recorded after completion.
 
 ### Generation, simulation and evidence
 
@@ -454,6 +454,64 @@ For my hypothetical revenue exercise, this means specifying the baseline, change
 
 This connects with digital-marketing analytics: producing a chart or forecast should lead to an explanation of what it measures, which assumptions it uses and what further evidence is needed.
 
+### Translate ethical principles into questions about a service
+
+The ethics lesson highlights fairness, transparency and accountability, alongside effects on employees, customers and communities. I applied these ideas to a **hypothetical payment-risk review**:
+
+| Principle | Question I would investigate |
+| --- | --- |
+| Fairness | Are new users with little history more likely to be wrongly flagged? What data and group comparisons would establish this? |
+| Transparency | Can users understand the current status, why further information is requested and what to do next? Does the explanation match the process? |
+| Accountability | Who can review a disputed decision, correct an error and record the outcome? Does the reviewer have authority to change it? |
+
+This is scenario analysis; I have not tested a risk model. An overall accuracy or cost-saving figure would not, by itself, establish that a service works appropriately for every group. I would also check a generated explanation against the relevant records and process before treating it as an account of how a decision was made.
+
+### Check what a controls report actually covers
+
+The compliance lesson draws attention to records of inputs, processing and outputs, and reassessment as systems change.
+
+AICPA describes SOC 2 in terms of service-organisation controls concerning security, availability, processing integrity, confidentiality or privacy. My inference is that such a report should not be treated as proof that every AI financial conclusion is accurate. I would examine its scope and findings, then check the particular output. [Source: AICPA, SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2/).
+
+I also checked the lesson's reference to public reports. AICPA identifies SOC 3 as a general-use report that can be freely distributed; I would not assume that a particular SOC 2 report is public. [Source: AICPA, SOC 3](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-3).
+
+I would distinguish evidence about the provider's controls, my own handling of data and verification of the analysis. Each answers a different question about using the service.
+
+### My output-checking exercise: arithmetic, labels and certainty
+
+Using my fictional business figures, I constructed three sample claims to check. This is a notes exercise, not a real company report or a measured model test.
+
+| Sample claim | My check and correction |
+| --- | --- |
+| “The difference grew by 5%, because 10% minus 5% is 5%.” | The correct denominator is the original £30,000 difference: £6,500 ÷ £30,000 ≈ 21.67%. |
+| “Net income is £36,500.” | The label exceeds the calculation's scope. I calculated revenue less specified operating costs; tax, financing and other items remain outside it. |
+| “Next quarter will definitely produce £36,500.” | This turns a conditional scenario into a certain forecast. The arithmetic result depends on the stated revenue, cost and scope assumptions. |
+
+The exercise distinguishes a calculation error, a definition error and an unsupported conclusion. Correcting one does not establish that the other checks have passed.
+
+### Annual-report case: trace one claim to the original table
+
+The lesson uses Apple's fiscal 2024 Form 10-K to explore business performance, risks and strategy. I treat a citation as an entry point for verification and open the source to examine whether it supports the claim.
+
+I checked the products and services table on report page 23 and recalculated the iPad change:
+
+| Measure (USD millions) | FY2023 | FY2024 | My calculation |
+| --- | --- | --- | --- |
+| iPad net sales | 28,300 | 26,694 | (26,694 − 28,300) ÷ 28,300 ≈ −5.67% |
+
+Rounded to a whole percentage, this is a 6% decrease, consistent with the report and lesson. [Source: Apple, 2024 Form 10-K, p. 23](https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm).
+
+This completed check connects a claim with its original table, units, period and calculation. It verifies one statement; it does not validate an entire generated summary or forecast, and I do not present historical figures as current performance.
+
+### Financial-statement analysis: preserve meaning when tidying data
+
+The instructor demonstrates structured data for the income statement, balance sheet and cash-flow statement, followed by charts and DuPont analysis. I record my understanding of the demonstration; I have not reproduced the instructor's full analysis.
+
+My preparation checks would preserve statement names, row definitions, currency, units, periods and original references after removing visual formatting. I would distinguish quarterly and cumulative figures, balances at a date and flows over a period, and inspect missing values and negative signs.
+
+A chart needs a defined question. When interpreting a change in ROE, I would examine the contributions of profit margin, asset use and leverage before judging operating performance. I would also state calculation conventions and factors affecting comparisons.
+
+The connection to marketing data is practical: tidier tables still need event definitions, denominators and observation periods to support interpretation.
+
 ## My next steps and evidence of progress
 
 | Action | Why it matters | Evidence I will produce |
@@ -481,6 +539,8 @@ My learning photograph and course screenshot are retained with my local portfoli
 - Apple, [Mail Privacy Protection & Privacy](https://www.apple.com/legal/privacy/data/en/mail-privacy-protection/), consulted on 8 September 2026.
 - Mailchimp, [About Email Reports](https://mailchimp.com/help/about-email-campaign-reports/), consulted on 8 September 2026.
 - Goodfellow et al., [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661), 2014.
+- AICPA & CIMA, [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2/) and [SOC 3](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-3), consulted on 8 September 2026.
+- Apple Inc. (2024), [Form 10-K for the fiscal year ended 28 September 2024](https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm), p. 23.
 - [My Week 1 e-commerce repository](https://github.com/hansu650/ice-week1-ecommerce-poster).
 
 The applied examples and critical observations above are my analysis of the learning material and the cited sources.
