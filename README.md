@@ -280,11 +280,77 @@ This connects with financial inclusion: devices, connectivity and digital skills
 
 The website-copywriting lesson breaks dynamic content into modules such as headlines, calls to action and product descriptions. For my example, I would record which version appears under each condition and check that its promised action matches the next step. This connects the writing exercise with the behaviour of a page.
 
+### A landing page should fulfil the promise of its entry point
+
+The landing-page lesson emphasises a defined action and consistency between the incoming advertisement or link and the page's heading, content and offer. I would first identify why the visitor arrived and what task the page should support.
+
+I distinguish a marketing landing page from checkout: one may help a visitor explore or start a purchase; the other handles the information and steps needed to buy. Removing distractions should preserve conditions and access to help. When comparing versions, I would examine a defined conversion measure alongside whether customers understand the page correctly.
+
 ### Connecting website content with the next action
 
 The course's Netflix case brings together website optimisation, concise copy, landing pages with different purposes and personalised recommendations. I took from it the need to connect a page's stated value with an appropriate next action.
 
 For my checkout analysis, I would define the task before checking whether the heading, button, fee explanation and following page agree. If I compared versions, I would define the measures in advance and record what changed. A brand example gives me questions to investigate; it does not establish that the same design will work in my context.
+
+### Separating search visibility, AI references and business outcomes
+
+The course connects SEO with visibility in search results and GEO with inclusion in generated answers. I distinguish an appearance in an answer, a website visit and a purchase when deciding what to measure.
+
+I checked Google Search Central: foundational SEO practices remain relevant to Google's AI Overviews and AI Mode, without additional special optimisation requirements. Meeting requirements does not guarantee that content will appear. [Source: Google Search Central, AI features and your website](https://developers.google.com/search/docs/appearance/ai-features).
+
+My priority would be accurate, clearly organised content that answers a real question, followed by evaluation for a specified platform and observation period. An AI reference alone would not demonstrate increased sales, and one provider's guidance does not establish rules for every service.
+
+### Paid media: distinguish the charged action from the business goal
+
+The paid-advertising lesson introduces charging for actions such as clicks, impressions or views. PPC concerns clicks, while CPM expresses cost per thousand impressions. I would describe the charging model separately from the intended business outcome.
+
+I used **hypothetical data** for a second calculation exercise: £120 of advertising spend, 30,000 impressions, 600 clicks and 24 recorded purchase conversions in the same period.
+
+| Measure | Calculation | Result |
+| --- | --- | --- |
+| Cost per thousand impressions | £120 / 30,000 × 1,000 | £4 |
+| Average cost per click | £120 / 600 | £0.20 |
+| Cost per recorded purchase conversion | £120 / 24 | £5 |
+
+These are three views of the same example, not three simultaneous charging arrangements. The costs include advertising spend only, rather than all acquisition costs. The figures do not establish additional purchases caused by advertising. For an actual campaign, I would state attribution, other costs and a comparison baseline.
+
+### Customer lifetime value depends on stated assumptions
+
+The customer-value lesson looks beyond the first purchase. Its simplified LTV estimate combines average purchase value, purchase frequency per period, the number of periods and a profit margin.
+
+I would check consistent time units, which costs the margin includes and the evidence for expected retention. Before comparing LTV with CAC, I would align their scope and examine whether a shorter relationship or lower margin changes the decision. This connects retention with the cost exercise while keeping the uncertainty visible.
+
+### Work backwards from the target, then revise the budget
+
+The budgeting lesson connects funnel stages, intended results, acceptable costs and conversion assumptions. I would define the target first, estimate the required visits or clicks and state which expenses the budget covers.
+
+The suggested stage allocations provide starting points. In my plan, I would first locate the difficulty in the customer journey, then select an action and measure. An initial test should produce actual cost and conversion information that can change the next allocation.
+
+### Turn campaign setup into a review sequence
+
+The campaign-creation lesson connects the objective, business information, targeting, advertisement, landing page and budget. I translated this into a review order for my hypothetical plan: align the objective and audience, check the promise against the page, then examine costs, conversion recording and the review schedule.
+
+Even when a platform adjusts bids or content automatically, I need to judge whether its optimisation target matches the problem I intend to address. Suggested settings provide a starting point; performance and page facts require continuing review.
+
+### Different platform participants need different objectives
+
+The Airbnb case uses guests and hosts to discuss differences in audience, customer value and calls to action. I use it as an analytical example rather than verified current advertising data.
+
+For digital payments, a customer completing a payment and a merchant considering service integration have different tasks. I would define the necessary information, next action and completion measure for each. Combining their conversions without explaining the distinction would obscure what the activity achieved.
+
+### Social content should suit the reason people use a channel
+
+The social-strategy lesson compares uses such as short video, professional discussion, timely conversation and visual discovery. I would begin with the user's purpose, then select the format and emphasis.
+
+In my payment example, a short demonstration could explain one action, a professional article could examine participants and business needs, and help content could address specific questions. These formats have different tasks while retaining consistent facts. I would test the choice against current platform guidance and feedback, rather than treating the course's algorithm descriptions as permanent rules.
+
+The platform-selection lesson adds audience presence, relevant creators, content formats and the capacity to produce consistently. Competitor activity can suggest where to investigate; the final choice still needs to fit my objective, resources and audience evidence.
+
+### Engagement and purposeful content reuse
+
+The audience-building lesson emphasises useful, consistent content and adapting material across formats. I understand reuse as reorganising length, format and emphasis while retaining accurate core information.
+
+The flow diagrams in these notes explain processes; the calculation tables clarify measures; the prose develops my reasoning. Their different purposes help me choose a format for the reader's question. When evaluating engagement, I would examine what the feedback says and whether it reveals misunderstanding or helps improve an explanation.
 
 ## Course still to be developed
 
@@ -313,6 +379,7 @@ My learning photograph and course screenshot are retained with my local portfoli
 - European Union, [General Data Protection Regulation, Article 6](https://eur-lex.europa.eu/eli/reg/2016/679/art_6/oj/eng).
 - Stripe, [Fulfill orders with Checkout](https://docs.stripe.com/checkout/fulfillment), consulted on 8 September 2026.
 - Google Ads, [About return on investment](https://support.google.com/google-ads/answer/1722066?hl=en), consulted on 8 September 2026.
+- Google Search Central, [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features), consulted on 8 September 2026.
 - [My Week 1 e-commerce repository](https://github.com/hansu650/ice-week1-ecommerce-poster).
 
 The applied examples and critical observations above are my analysis of the learning material and the cited sources.
