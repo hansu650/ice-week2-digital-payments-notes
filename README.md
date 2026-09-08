@@ -250,6 +250,42 @@ The messaging lesson starts with the information needed to address a customer's 
 
 Growth loops connect an existing user's experience with the arrival of new users through mechanisms such as referrals or shareable features. I would evaluate useful participation and retention alongside sharing counts and incentive costs. In a payment setting, trust in the underlying service and control over what information is shared would shape my assessment.
 
+### Events, content consistency and channel choice
+
+The analytics lesson uses GA4's event model to explain observation of actions such as clicks, downloads and purchases. This reinforces my need for clear event definitions before interpreting a KPI. The server-side-tagging discussion also made me consider where data is processed, which fields are forwarded and how the resulting quality and performance would be checked.
+
+For a coherent online presence, the course discusses separating content management from its presentation across channels. My concern is that core information remains consistent while formats suit each touchpoint. In a checkout journey, I would check for outdated amounts or instructions after an update.
+
+Channel selection starts with the audience's behaviour, suitable content and available resources. Historical data or predictions can guide a choice, but subsequent results still need review. The information that matters to a purchase should be available where the customer needs it.
+
+### Checking the cost assumptions behind a priority
+
+The prioritisation lesson introduces ROI and the CAC payback period. I checked its simplified ROI example against Google Ads guidance, whose example includes production and advertising costs. My takeaway is to state the cost boundary and distinguish sales revenue from profit before comparing returns. [Source: Google Ads, About ROI](https://support.google.com/google-ads/answer/1722066?hl=en).
+
+For a forecast-based priority, I would record the assumptions and consider whether the conclusion changes when they change. A single attractive ratio would not explain the full decision.
+
+### Adapting a message while keeping the facts consistent
+
+The messaging lesson connects audience needs with the emphasis, language, channel and call to action. In my example, a first-time customer may benefit from more explanation while a familiar user may focus on the current amount and status. The fees, conditions and help route should remain understandable across versions.
+
+I would state what the adaptation changes, why that change suits the task and what evidence would show that it helps.
+
+I applied the lean-messaging lesson in a small writing exercise. For a hypothetical button that opens a payment-review page, I changed “Please click here to continue to the next step” to **“Review payment details.”** The revision names the task more directly. It is an authored example, not a change to a live checkout or a tested improvement. Concision should retain information needed to understand the amount, conditions and status.
+
+### Website quality as part of payment access
+
+The website-optimisation lesson connects speed, relevant information, usability and content structure. In my mobile-checkout example, I would examine whether loading delays obstruct the task, whether amounts and conditions are easy to find, and whether the instructions match the process.
+
+This connects with financial inclusion: devices, connectivity and digital skills can affect how people complete the same task. My evaluation should name the user context and the specific difficulty, then compare the interface with the documented service behaviour.
+
+The website-copywriting lesson breaks dynamic content into modules such as headlines, calls to action and product descriptions. For my example, I would record which version appears under each condition and check that its promised action matches the next step. This connects the writing exercise with the behaviour of a page.
+
+### Connecting website content with the next action
+
+The course's Netflix case brings together website optimisation, concise copy, landing pages with different purposes and personalised recommendations. I took from it the need to connect a page's stated value with an appropriate next action.
+
+For my checkout analysis, I would define the task before checking whether the heading, button, fee explanation and following page agree. If I compared versions, I would define the measures in advance and record what changed. A brand example gives me questions to investigate; it does not establish that the same design will work in my context.
+
 ## Course still to be developed
 
 | Course assigned through the Week 2 learning materials | My planned focus | Status |
@@ -276,6 +312,7 @@ My learning photograph and course screenshot are retained with my local portfoli
 - EMVCo, [EMV QR Codes](https://www.emvco.com/emv-technologies/qr-codes/) and [EMV Payment Tokenisation](https://www.emvco.com/emv-technologies/payment-tokenisation/), consulted on 8 September 2026.
 - European Union, [General Data Protection Regulation, Article 6](https://eur-lex.europa.eu/eli/reg/2016/679/art_6/oj/eng).
 - Stripe, [Fulfill orders with Checkout](https://docs.stripe.com/checkout/fulfillment), consulted on 8 September 2026.
+- Google Ads, [About return on investment](https://support.google.com/google-ads/answer/1722066?hl=en), consulted on 8 September 2026.
 - [My Week 1 e-commerce repository](https://github.com/hansu650/ice-week1-ecommerce-poster).
 
 The applied examples and critical observations above are my analysis of the learning material and the cited sources.
