@@ -42,7 +42,24 @@ I distinguish payment processing from funds transfer. Payment processing include
 
 A digital wallet provides a way to initiate payments and manage financial information or assets. It can connect to other services and infrastructure. I therefore need to distinguish the wallet interface, a payment service provider, a card network and a bank when describing a particular transaction.
 
-**My applied example:** In a hypothetical online purchase, a customer selects a mobile wallet at checkout. The merchant uses a payment service to accept the transaction, and other financial participants support authorisation and the movement of funds. This example helps me connect the visible checkout experience with the processes behind it. A detailed payment diagram is my next step, because the exact flow depends on the payment method and providers involved.
+**My applied example:** In a hypothetical online purchase, a customer selects a mobile wallet at checkout. The merchant uses a payment service to accept the transaction, and other financial participants support authorisation and the movement of funds. This example helps me connect the visible checkout experience with the processes behind it.
+
+### Applying the learning — a QR payment example
+
+EMVCo distinguishes two payment modes: a customer can scan a merchant's QR code, or display a code for the merchant to scan. Its specifications define the QR data format; providers determine subsequent payment messaging. This helps me separate the payment entry point from the processing behind it. [Source: EMVCo, EMV QR Codes](https://www.emvco.com/emv-technologies/qr-codes/).
+
+My diagram illustrates the first mode at a conceptual level:
+
+```mermaid
+flowchart LR
+    M[Merchant displays payment QR] --> S[Customer scans with payment app]
+    S --> D[App reads payment data]
+    D --> P[Provider-specific payment processing]
+```
+
+**My analysis:** I would examine what happens if the app reads unexpected payment details, the network fails, or the payment status is unclear. A useful design should help the customer check the intended recipient and understand the result before deciding whether to retry. These are evaluation questions for my scenario, to be checked against a specific provider's documented behaviour.
+
+I also checked EMV payment tokenisation. It substitutes a payment token for the primary account number and can constrain token use to a device, merchant or payment scenario. My takeaway is that payment security can involve limiting the usefulness of exposed data. [Source: EMVCo, EMV Payment Tokenisation](https://www.emvco.com/emv-technologies/payment-tokenisation/).
 
 ### Digital banking and financial inclusion
 
@@ -64,7 +81,17 @@ Peer-to-peer lending connects borrowers with lenders through a platform. Crowdfu
 
 The questions reinforced the connection between smartphones and mobile payments, the meaning of digital banking, and the role of technology in widening access to financial services. They also helped me distinguish broad personal finance functions from narrower activities such as investment advice.
 
-The platform marks the first chapter quiz as viewed. I have not added an unverified numerical score to this record.
+The platform marks the first chapter quiz as viewed.
+
+### Personal finance, insurance and AI
+
+Personal finance management tools can aggregate account information, track spending and support budgeting. Accounting automation can reduce repeated work in bookkeeping, expense tracking, invoicing and reporting. I connect both applications to data quality: incorrect inputs or categories can affect the conclusions drawn from a dashboard or report.
+
+InsurTech applies technology to activities such as underwriting, claims and risk assessment. The course's examples include vehicle data and insurance linked to usage. This makes me consider a trade-off between personalisation and the amount of information collected about a customer.
+
+AI and machine learning can identify patterns or anomalies, support fraud detection, automate service tasks and assist investment analysis. I understand machine learning as a part of the broader field of AI.
+
+**My critical observation:** For a payment fraud model, I would evaluate both missed fraud and legitimate payments incorrectly flagged. A system that blocks many genuine customers could undermine the convenient payment experience it is supposed to support. I would also examine how a flagged decision can be reviewed and how changing transaction patterns affect performance.
 
 ## Courses still to be developed
 
@@ -78,7 +105,7 @@ The platform marks the first chapter quiz as viewed. I have not added an unverif
 | Action | Why it matters | Evidence I will produce |
 | --- | --- | --- |
 | Complete the remaining FinTech sections and chapter quizzes | Build a more complete account of the field and identify misunderstandings. | Updated learning notes and the platform's completion record. |
-| Draw and explain one digital payment scenario | Demonstrate how I connect e-commerce with payment services. | A labelled flow with the roles of the participants explained. |
+| Extend the QR payment diagram with one provider's documented flow | Move from a conceptual diagram to a specific, verifiable example. | Participant roles, payment status handling and source references. |
 | Compare convenience, inclusion and risk in that scenario | Develop a balanced reflection supported by a concrete example. | A short analysis covering a benefit, a limitation and a response. |
 | Study the remaining assigned courses | Extend the analysis to marketing and AI in finance. | Separate course notes and verified completion evidence. |
 | Update my personal development plan before finalising Theme 2 | Turn the learning into an explicit development goal. | A specific goal, an action and a way to check progress. |
@@ -91,4 +118,4 @@ My learning photograph and course screenshot are retained with my local portfoli
 - Corporate Finance Institute, [Introduction to Fintech](https://www.linkedin.com/learning/introduction-to-fintech), LinkedIn Learning.
 - [My Week 1 e-commerce repository](https://github.com/hansu650/ice-week1-ecommerce-poster).
 
-The applied examples and critical observations above are my analysis of the learning material. They are not claims that I carried out a live financial transaction or tested a financial product.
+The applied examples and critical observations above are my analysis of the learning material and the cited sources.
